@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE44CA5320EB652A00B8F4F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE44CA5220EB652A00B8F4F6 /* AppDelegate.m */; };
+		DE44CA5620EB652A00B8F4F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE44CA5520EB652A00B8F4F6 /* ViewController.m */; };
+		DE44CA5920EB652A00B8F4F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE44CA5720EB652A00B8F4F6 /* Main.storyboard */; };
+		DE44CA5B20EB652A00B8F4F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE44CA5A20EB652A00B8F4F6 /* Assets.xcassets */; };
+		DE44CA5E20EB652A00B8F4F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE44CA5C20EB652A00B8F4F6 /* LaunchScreen.storyboard */; };
+		DE44CA6120EB652A00B8F4F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE44CA6020EB652A00B8F4F6 /* main.m */; };
+		DE44CA8820EB668D00B8F4F6 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = DE44CA6C20EB668D00B8F4F6 /* LICENSE */; };
+		DE44CA8920EB668D00B8F4F6 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = DE44CA6F20EB668D00B8F4F6 /* MASCompositeConstraint.m */; };
+		DE44CA8A20EB668D00B8F4F6 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = DE44CA7220EB668D00B8F4F6 /* MASConstraint.m */; };
+		DE44CA8B20EB668D00B8F4F6 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = DE44CA7420EB668D00B8F4F6 /* MASConstraintMaker.m */; };
+		DE44CA8C20EB668D00B8F4F6 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = DE44CA7620EB668D00B8F4F6 /* MASLayoutConstraint.m */; };
+		DE44CA8D20EB668D00B8F4F6 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = DE44CA7A20EB668D00B8F4F6 /* MASViewAttribute.m */; };
+		DE44CA8E20EB668D00B8F4F6 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = DE44CA7C20EB668D00B8F4F6 /* MASViewConstraint.m */; };
+		DE44CA8F20EB668D00B8F4F6 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DE44CA7E20EB668D00B8F4F6 /* NSArray+MASAdditions.m */; };
+		DE44CA9020EB668D00B8F4F6 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DE44CA8120EB668D00B8F4F6 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		DE44CA9120EB668D00B8F4F6 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DE44CA8320EB668D00B8F4F6 /* View+MASAdditions.m */; };
+		DE44CA9220EB668D00B8F4F6 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DE44CA8620EB668D00B8F4F6 /* ViewController+MASAdditions.m */; };
+		DE44CA9320EB668D00B8F4F6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DE44CA8720EB668D00B8F4F6 /* README.md */; };
+		DE44CA9920EB678000B8F4F6 /* ZYCalculatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE44CA9820EB678000B8F4F6 /* ZYCalculatorView.m */; };
+		DE44CA9C20EB84A700B8F4F6 /* ZYCalculatorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DE44CA9B20EB84A700B8F4F6 /* ZYCalculatorModel.m */; };
+		DE9C2B8E2154F90A004E8912 /* preview.gif in Resources */ = {isa = PBXBuildFile; fileRef = DE9C2B8D2154F90A004E8912 /* preview.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE44CA4E20EB652A00B8F4F6 /* ZYCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE44CA5120EB652A00B8F4F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE44CA5220EB652A00B8F4F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE44CA5420EB652A00B8F4F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE44CA5520EB652A00B8F4F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE44CA5820EB652A00B8F4F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE44CA5A20EB652A00B8F4F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE44CA5D20EB652A00B8F4F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE44CA5F20EB652A00B8F4F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE44CA6020EB652A00B8F4F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE44CA6820EB658000B8F4F6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DE44CA6C20EB668D00B8F4F6 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DE44CA6E20EB668D00B8F4F6 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		DE44CA6F20EB668D00B8F4F6 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		DE44CA7020EB668D00B8F4F6 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		DE44CA7120EB668D00B8F4F6 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		DE44CA7220EB668D00B8F4F6 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		DE44CA7320EB668D00B8F4F6 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		DE44CA7420EB668D00B8F4F6 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		DE44CA7520EB668D00B8F4F6 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		DE44CA7620EB668D00B8F4F6 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		DE44CA7720EB668D00B8F4F6 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		DE44CA7820EB668D00B8F4F6 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		DE44CA7920EB668D00B8F4F6 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		DE44CA7A20EB668D00B8F4F6 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		DE44CA7B20EB668D00B8F4F6 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		DE44CA7C20EB668D00B8F4F6 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		DE44CA7D20EB668D00B8F4F6 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		DE44CA7E20EB668D00B8F4F6 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		DE44CA7F20EB668D00B8F4F6 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		DE44CA8020EB668D00B8F4F6 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		DE44CA8120EB668D00B8F4F6 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		DE44CA8220EB668D00B8F4F6 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		DE44CA8320EB668D00B8F4F6 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		DE44CA8420EB668D00B8F4F6 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		DE44CA8520EB668D00B8F4F6 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		DE44CA8620EB668D00B8F4F6 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		DE44CA8720EB668D00B8F4F6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DE44CA9420EB66A500B8F4F6 /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		DE44CA9520EB66BA00B8F4F6 /* HeaderFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderFile.h; sourceTree = "<group>"; };
+		DE44CA9720EB678000B8F4F6 /* ZYCalculatorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYCalculatorView.h; sourceTree = "<group>"; };
+		DE44CA9820EB678000B8F4F6 /* ZYCalculatorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYCalculatorView.m; sourceTree = "<group>"; };
+		DE44CA9A20EB84A700B8F4F6 /* ZYCalculatorModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYCalculatorModel.h; sourceTree = "<group>"; };
+		DE44CA9B20EB84A700B8F4F6 /* ZYCalculatorModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYCalculatorModel.m; sourceTree = "<group>"; };
+		DE9C2B8D2154F90A004E8912 /* preview.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = preview.gif; sourceTree = "<group>"; };
+		DEB2274620ECAB65006434A4 /* UserDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDefine.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE44CA4B20EB652A00B8F4F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE44CA4520EB652A00B8F4F6 = {
+			isa = PBXGroup;
+			children = (
+				DE44CA5020EB652A00B8F4F6 /* ZYCalculator */,
+				DE44CA4F20EB652A00B8F4F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE44CA4F20EB652A00B8F4F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE44CA4E20EB652A00B8F4F6 /* ZYCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE44CA5020EB652A00B8F4F6 /* ZYCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				DE44CA5120EB652A00B8F4F6 /* AppDelegate.h */,
+				DE44CA5220EB652A00B8F4F6 /* AppDelegate.m */,
+				DE44CA5420EB652A00B8F4F6 /* ViewController.h */,
+				DE44CA5520EB652A00B8F4F6 /* ViewController.m */,
+				DE9C2B8C2154F90A004E8912 /* Photos */,
+				DE44CA9620EB673800B8F4F6 /* Calculator */,
+				DE44CA6920EB663A00B8F4F6 /* Helper */,
+				DE44CA6720EB655600B8F4F6 /* Other */,
+			);
+			path = ZYCalculator;
+			sourceTree = "<group>";
+		};
+		DE44CA6720EB655600B8F4F6 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				DE44CA5720EB652A00B8F4F6 /* Main.storyboard */,
+				DE44CA5A20EB652A00B8F4F6 /* Assets.xcassets */,
+				DE44CA5C20EB652A00B8F4F6 /* LaunchScreen.storyboard */,
+				DE44CA5F20EB652A00B8F4F6 /* Info.plist */,
+				DE44CA6820EB658000B8F4F6 /* PrefixHeader.pch */,
+				DE44CA6020EB652A00B8F4F6 /* main.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		DE44CA6920EB663A00B8F4F6 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				DE44CA9420EB66A500B8F4F6 /* Macro.h */,
+				DE44CA9520EB66BA00B8F4F6 /* HeaderFile.h */,
+				DEB2274620ECAB65006434A4 /* UserDefine.h */,
+				DE44CA6A20EB666300B8F4F6 /* Vendor */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		DE44CA6A20EB666300B8F4F6 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				DE44CA6B20EB668D00B8F4F6 /* Masonry */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		DE44CA6B20EB668D00B8F4F6 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				DE44CA6C20EB668D00B8F4F6 /* LICENSE */,
+				DE44CA6D20EB668D00B8F4F6 /* Masonry */,
+				DE44CA8720EB668D00B8F4F6 /* README.md */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		DE44CA6D20EB668D00B8F4F6 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				DE44CA6E20EB668D00B8F4F6 /* MASCompositeConstraint.h */,
+				DE44CA6F20EB668D00B8F4F6 /* MASCompositeConstraint.m */,
+				DE44CA7020EB668D00B8F4F6 /* MASConstraint+Private.h */,
+				DE44CA7120EB668D00B8F4F6 /* MASConstraint.h */,
+				DE44CA7220EB668D00B8F4F6 /* MASConstraint.m */,
+				DE44CA7320EB668D00B8F4F6 /* MASConstraintMaker.h */,
+				DE44CA7420EB668D00B8F4F6 /* MASConstraintMaker.m */,
+				DE44CA7520EB668D00B8F4F6 /* MASLayoutConstraint.h */,
+				DE44CA7620EB668D00B8F4F6 /* MASLayoutConstraint.m */,
+				DE44CA7720EB668D00B8F4F6 /* Masonry.h */,
+				DE44CA7820EB668D00B8F4F6 /* MASUtilities.h */,
+				DE44CA7920EB668D00B8F4F6 /* MASViewAttribute.h */,
+				DE44CA7A20EB668D00B8F4F6 /* MASViewAttribute.m */,
+				DE44CA7B20EB668D00B8F4F6 /* MASViewConstraint.h */,
+				DE44CA7C20EB668D00B8F4F6 /* MASViewConstraint.m */,
+				DE44CA7D20EB668D00B8F4F6 /* NSArray+MASAdditions.h */,
+				DE44CA7E20EB668D00B8F4F6 /* NSArray+MASAdditions.m */,
+				DE44CA7F20EB668D00B8F4F6 /* NSArray+MASShorthandAdditions.h */,
+				DE44CA8020EB668D00B8F4F6 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				DE44CA8120EB668D00B8F4F6 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				DE44CA8220EB668D00B8F4F6 /* View+MASAdditions.h */,
+				DE44CA8320EB668D00B8F4F6 /* View+MASAdditions.m */,
+				DE44CA8420EB668D00B8F4F6 /* View+MASShorthandAdditions.h */,
+				DE44CA8520EB668D00B8F4F6 /* ViewController+MASAdditions.h */,
+				DE44CA8620EB668D00B8F4F6 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		DE44CA9620EB673800B8F4F6 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				DE44CA9720EB678000B8F4F6 /* ZYCalculatorView.h */,
+				DE44CA9820EB678000B8F4F6 /* ZYCalculatorView.m */,
+				DE44CA9A20EB84A700B8F4F6 /* ZYCalculatorModel.h */,
+				DE44CA9B20EB84A700B8F4F6 /* ZYCalculatorModel.m */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		DE9C2B8C2154F90A004E8912 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				DE9C2B8D2154F90A004E8912 /* preview.gif */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE44CA4D20EB652A00B8F4F6 /* ZYCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE44CA6420EB652A00B8F4F6 /* Build configuration list for PBXNativeTarget "ZYCalculator" */;
+			buildPhases = (
+				DE44CA4A20EB652A00B8F4F6 /* Sources */,
+				DE44CA4B20EB652A00B8F4F6 /* Frameworks */,
+				DE44CA4C20EB652A00B8F4F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYCalculator;
+			productName = ZYCalculator;
+			productReference = DE44CA4E20EB652A00B8F4F6 /* ZYCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE44CA4620EB652A00B8F4F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = TaoSheng;
+				TargetAttributes = {
+					DE44CA4D20EB652A00B8F4F6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DE44CA4920EB652A00B8F4F6 /* Build configuration list for PBXProject "ZYCalculator" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE44CA4520EB652A00B8F4F6;
+			productRefGroup = DE44CA4F20EB652A00B8F4F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE44CA4D20EB652A00B8F4F6 /* ZYCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE44CA4C20EB652A00B8F4F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE44CA5E20EB652A00B8F4F6 /* LaunchScreen.storyboard in Resources */,
+				DE44CA5B20EB652A00B8F4F6 /* Assets.xcassets in Resources */,
+				DE44CA9320EB668D00B8F4F6 /* README.md in Resources */,
+				DE44CA8820EB668D00B8F4F6 /* LICENSE in Resources */,
+				DE44CA5920EB652A00B8F4F6 /* Main.storyboard in Resources */,
+				DE9C2B8E2154F90A004E8912 /* preview.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE44CA4A20EB652A00B8F4F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE44CA9020EB668D00B8F4F6 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				DE44CA8E20EB668D00B8F4F6 /* MASViewConstraint.m in Sources */,
+				DE44CA8920EB668D00B8F4F6 /* MASCompositeConstraint.m in Sources */,
+				DE44CA8F20EB668D00B8F4F6 /* NSArray+MASAdditions.m in Sources */,
+				DE44CA5620EB652A00B8F4F6 /* ViewController.m in Sources */,
+				DE44CA6120EB652A00B8F4F6 /* main.m in Sources */,
+				DE44CA8C20EB668D00B8F4F6 /* MASLayoutConstraint.m in Sources */,
+				DE44CA9C20EB84A700B8F4F6 /* ZYCalculatorModel.m in Sources */,
+				DE44CA5320EB652A00B8F4F6 /* AppDelegate.m in Sources */,
+				DE44CA9220EB668D00B8F4F6 /* ViewController+MASAdditions.m in Sources */,
+				DE44CA9120EB668D00B8F4F6 /* View+MASAdditions.m in Sources */,
+				DE44CA8D20EB668D00B8F4F6 /* MASViewAttribute.m in Sources */,
+				DE44CA9920EB678000B8F4F6 /* ZYCalculatorView.m in Sources */,
+				DE44CA8A20EB668D00B8F4F6 /* MASConstraint.m in Sources */,
+				DE44CA8B20EB668D00B8F4F6 /* MASConstraintMaker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE44CA5720EB652A00B8F4F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE44CA5820EB652A00B8F4F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE44CA5C20EB652A00B8F4F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE44CA5D20EB652A00B8F4F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE44CA6220EB652A00B8F4F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE44CA6320EB652A00B8F4F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE44CA6520EB652A00B8F4F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8A3UR39242;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZYCalculator/PrefixHeader.pch";
+				INFOPLIST_FILE = ZYCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taoshengSZY.ZYCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE44CA6620EB652A00B8F4F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8A3UR39242;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZYCalculator/PrefixHeader.pch";
+				INFOPLIST_FILE = ZYCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taoshengSZY.ZYCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE44CA4920EB652A00B8F4F6 /* Build configuration list for PBXProject "ZYCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE44CA6220EB652A00B8F4F6 /* Debug */,
+				DE44CA6320EB652A00B8F4F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE44CA6420EB652A00B8F4F6 /* Build configuration list for PBXNativeTarget "ZYCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE44CA6520EB652A00B8F4F6 /* Debug */,
+				DE44CA6620EB652A00B8F4F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE44CA4620EB652A00B8F4F6 /* Project object */;
+}
